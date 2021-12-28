@@ -1,0 +1,166 @@
+# sample2<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+    <meta name=”viewport” content=”width=device-width,initial-scale=1″>
+    <script src="https://kit.fontawesome.com/e0a6756a44.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社富所組</title>
+</head>
+<body>
+    <header>
+            <div class="title-container">
+                <div class="header-menu">
+                    <div class="header-left">
+                        <h1>株式会社&nbsp;富所組</h1>
+                    </div>
+                    <div class="header-right">
+                        <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-instagram-square fa-2x"></i></a>
+                    </div>
+                </div>
+      
+                <div class="nav">
+                    <ul class="nav-list">
+                        <li class="this"><a href="#">HOME</a></li>
+                        <li><a href="#">ご依頼の流れ</a></li>
+                        <li><a href="#">業務内容</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                        <li><a href="#">会社概要</a></li>
+                    </ul>
+                </div>
+    <!--hamburgerメニューここから-->
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      
+      <nav class="globalMenuSp">
+          <ul>
+            <li class="this"><a href="#">HOME</a></li>
+            <li><a href="#">ご依頼の流れ</a></li>
+            <li><a href="#">業務内容</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+            <li><a href="#">会社概要</a></li>
+          </ul>
+      </nav>
+      <!--hamburgerメニューここまで-->
+            </div>
+    </header>
+    <div class="main">
+            <div class="catch-copy">
+                <h2>会社の<br>
+                キャッチコピー</h2>
+            </div>
+            <img src="images/plasterer-top-768x432.jpg">
+
+    </div>
+    <div id="recruit-wrapper">
+        <p>お客様に感謝し、<br>
+            感謝される企業を目指して</p>
+    <div id="recruit" class="fade-in fade-in-left">
+        <p><a href="#">求人情報</a></p>
+    </div>
+    <p class="recruit-message fade-in fade-in-left">富所組は一緒に働いてくれる方を募集しています。<br>
+        真面目な姿勢に取り組むのはもちろんですが、<br>
+        和気あいあいとした現場の雰囲気づくりも大切にしております。ご安心ください。<br>
+        未経験の方も、やる気があれば大丈夫。
+        まずはお気軽にお問い合わせください。</p>
+    </div>
+    <div class="contents-wrapper">
+        <div class="contents blog fade-in fade-in-left">
+            <p><a>施工事例・ブログ<br>
+                最新情報はこちらから</a>
+            </p>
+        </div>
+        <div class="contents business fade-in fade-in-left">
+            <p><a href="#">業務内容</a>
+            </p>
+        </div>
+    </div>
+    <div class="company-wrapper">
+    <h3>会社情報&nbsp;アクセス</h3>
+        <table id="company" class="fade-in fade-in-left">
+            <tr>
+                <th>会社名</th>
+                <td>株式会社&nbsp;富所組</td>
+            </tr>
+            <tr>
+                <th>所在地</th>
+                <td>&#12306;&nbsp;959&#045;0232<br>
+                    新潟県燕市吉田東栄町42&#045;33</td>
+            </tr>
+            <tr>
+                <th>電話</th>
+                <td>090-7255-2386</td>
+            </tr>
+            <tr>
+                <th>メールアドレス</th>
+                <td>tomiken2386@yahoo..co.jp</td>
+            </tr>
+            <tr>
+                <th>Fax</th>
+                <td>0256-92-1901</td>
+            </tr>
+            <tr>
+                <th>営業時間</th>
+                <td>00:00~00:00</td>
+                </tr>
+            <tr>
+                <th>定休日</th>
+                <td>曜日</td>
+            </tr>
+        </table>
+    </div>
+    <div class="gmap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d789.4239125026928!2d138.87533146412028!3d37.67985867099711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4e5b340fead91%3A0x5a58344c54e03ec8!2z44CSOTU5LTAyMzIg5paw5r2f55yM54eV5biC5ZCJ55Sw5p2x5qCE55S677yU77yS!5e0!3m2!1sja!2sjp!4v1640336964362!5m2!1sja!2sjp" width="80%" height="270" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    </div>
+    <footer>
+            <div class="footer-container">
+                <div class="footer-menu">
+                    <div class="footer-left">
+                        <h1 class="footer-title">株式会社&nbsp;富所組</h1>
+                        <p class="footer-message">
+                            新潟県燕市の株式会社&nbsp;富所組です。<br>
+                            塗り壁の表情豊かな質感、環境や身体に優しい素材を選び、暮らしを豊かにするツール。
+                            「左官」を通して、地域のみなさまの笑顔をつくります。
+                        </p>
+                        <p>各種SNS</p>
+                        <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-instagram-square fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <ul class="footer-nav-list">
+                        <li class="this"><a href="#">HOME</a></li>
+                        <li><a href="#">ご依頼の流れ</a></li>
+                        <li><a href="#">業務内容</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                        <li><a href="#">会社概要</a></li>
+                    </ul>
+                </div>
+                <div class="copy">
+                <ul>
+                    <li><a href="#">プライバシーポリシー</a></li>
+                    <li><a href="#">サイトマップ</a></li>
+                </ul>
+                </div>
+                <p class="copy-p">&copy;富所組</p>
+            </div>
+    </footer>
+    <script src="js/slideshow.js"></script>
+</body>
+    
